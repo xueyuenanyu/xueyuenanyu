@@ -16,6 +16,6 @@
     </ul>
     <h2>越南文化简介</h2>
     <p>越南以其丰富的饮食文化、独特的节日和迷人的自然风光而闻名。</p>
-<img src="https://github.com/xueyuenanyu/xueyuenanyu/blob/main/anh%20the.jpg?raw=true" />
+<img src="https://raw.githubusercontent.com/xueyuenanyu/xueyuenanyu/main/anh%20the.jpg" alt="越南语学习图片" />
 </body>
 </html>
