@@ -1,69 +1,113 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>极简主题卡片页面</title>
+    <title>课程介绍</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        /* Reset default margin and padding */
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
+            box-sizing: border-box;
+        }
+
+        /* Body style */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            text-align: center;
+            min-height: 100vh;
+            flex-direction: column;
         }
+
+        /* Container to center cards */
         .container {
             display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
             gap: 20px;
+            max-width: 1200px;
+            margin: 20px;
         }
+
+        /* Card style */
         .card {
             background-color: #ffffff;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            width: 250px;
             padding: 20px;
-            width: 200px;
-            cursor: pointer;
-            transition: transform 0.3s ease;
+            text-align: center;
+            transition: all 0.3s ease;
         }
+
+        .card h2 {
+            font-size: 24px;
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+
+        .card a {
+            display: block;
+            font-size: 18px;
+            color: #007BFF;
+            text-decoration: none;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        .card a:hover {
+            color: #0056b3;
+        }
+
         .card:hover {
             transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
         }
-        .card h3 {
-            margin: 0;
-            font-size: 18px;
-            color: #333;
+
+        /* Media queries for responsiveness */
+        @media (max-width: 768px) {
+            .card {
+                width: 200px;
+            }
         }
-        .card p {
-            margin-top: 10px;
-            color: #666;
-        }
-        .card:hover p {
-            color: #007bff;
+
+        @media (max-width: 480px) {
+            .card {
+                width: 160px;
+                font-size: 16px;
+            }
+
+            .card h2 {
+                font-size: 20px;
+            }
         }
     </style>
 </head>
 <body>
+
     <div class="container">
-        <div class="card" onclick="location.href='course1.html'">
-            <h3>一对一课程</h3>
-            <p>点击了解更多</p>
+        <div class="card">
+            <h2>一对一课程</h2>
+            <a href="course1.html">点击查看</a>
         </div>
-        <div class="card" onclick="location.href='course2.html'">
-            <h3>一千句越南语</h3>
-            <p>点击查看内容</p>
+        <div class="card">
+            <h2>一千句越南语</h2>
+            <a href="course2.html">点击查看</a>
         </div>
-        <div class="card" onclick="location.href='course3.html'">
-            <h3>三百句越南语</h3>
-            <p>点击学习</p>
+        <div class="card">
+            <h2>三百句越南语</h2>
+            <a href="course3.html">点击查看</a>
         </div>
-        <div class="card" onclick="location.href='course4.html'">
-            <h3>衣服</h3>
-            <p>点击购买</p>
+        <div class="card">
+            <h2>衣服</h2>
+            <a href="course4.html">点击查看</a>
         </div>
     </div>
+
 </body>
 </html>
