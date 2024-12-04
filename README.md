@@ -1,7 +1,8 @@
 ## Hi there 👋
 ## 大家好，我是 rainie 老师 
 ## 跟我一起学习越南语吧
-<img src="https://github.com/xueyuenanyu/xueyuenanyu/blob/main/anh%20the.jpg?raw=true" alt="越南语学习图片" />
+## <img src="https://github.com/xueyuenanyu/xueyuenanyu/blob/main/anh%20the.jpg?raw=true" alt="越南语学习图片" />
+## 这是老师的图片
 <!--
 **xueyuenanyu/xueyuenanyu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
