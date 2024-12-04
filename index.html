@@ -41,16 +41,24 @@
             border-radius: 15px;
             box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
             width: 250px;
-            padding: 20px;
             text-align: center;
             transition: all 0.3s ease;
             background: #ffffff; /* White background for cards */
+            overflow: hidden;
         }
 
+        /* Card image style */
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        /* Card text style */
         .card h2 {
             font-size: 24px;
             color: #4CAF50;
-            margin-bottom: 15px;
+            margin-top: 15px;
         }
 
         .card a {
@@ -58,7 +66,7 @@
             font-size: 18px;
             color: #007BFF;
             text-decoration: none;
-            margin-top: 15px;
+            margin-top: 10px;
             font-weight: bold;
         }
 
@@ -76,9 +84,6 @@
             .card {
                 width: 220px;
                 padding: 15px;
-            }
-            body {
-                background: linear-gradient(135deg, #f7b7d2, #90e0ef); /* Gradient stays the same */
             }
         }
 
@@ -99,19 +104,30 @@
 <body>
 
     <div class="container">
+        <!-- Card 1: 一对一课程 -->
         <div class="card">
+            <img src="path-to-your-image/course1.jpg" alt="一对一课程">
             <h2>一对一课程</h2>
             <a href="course1.html">点击查看</a>
         </div>
+
+        <!-- Card 2: 一千句越南语 -->
         <div class="card">
+            <img src="path-to-your-image/course2.jpg" alt="一千句越南语">
             <h2>一千句越南语</h2>
             <a href="course2.html">点击查看</a>
         </div>
+
+        <!-- Card 3: 三百句越南语 -->
         <div class="card">
+            <img src="path-to-your-image/course3.jpg" alt="三百句越南语">
             <h2>三百句越南语</h2>
             <a href="course3.html">点击查看</a>
         </div>
+
+        <!-- Card 4: 衣服 -->
         <div class="card">
+            <img src="path-to-your-image/clothes.jpg" alt="衣服">
             <h2>衣服</h2>
             <a href="course4.html">点击查看</a>
         </div>
