@@ -29,5 +29,85 @@
             <button onclick="window.location.href='page4.html'">衣服</button>
         </div>
     </div>
+    body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/vietnam-background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #C2185B;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #7B1FA2;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #C2185B;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    width: 280px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #C2185B;
+}
+
+.card button {
+    background-color: #7B1FA2;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    margin: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #512DA8;
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
 </body>
 </html>
