@@ -1,117 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>学越南语</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background-image: url('https://via.placeholder.com/1500x1000?text=Vietnam+Scenery'); /* 替换为越南风格背景图链接 */
-      background-size: cover;
-      background-position: center;
-      color: #ffffff;
-    }
-    .overlay {
-      background-color: rgba(0, 0, 0, 0.6); /* 添加透明层让文字更清晰 */
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      text-align: center;
-    }
-    h1 {
-      font-size: 3rem;
-      margin: 10px 0;
-      color: #FFD700;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-    }
-    p {
-      font-size: 1.5rem;
-      margin: 10px 0 30px;
-      color: #ffffff;
-    }
-    .cards {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 20px;
-    }
-    .card {
-      background-color: rgba(255, 255, 255, 0.8);
-      width: 200px;
-      padding: 20px;
-      border-radius: 10px;
-      text-align: center;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      transition: transform 0.3s ease;
-    }
-    .card:hover {
-      transform: scale(1.1);
-    }
-    .card img {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-      margin-bottom: 15px;
-    }
-    .card button {
-      background-color: #C2185B;
-      color: #fff;
-      border: none;
-      padding: 10px 15px;
-      font-size: 16px;
-      border-radius: 5px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    }
-    .card button:hover {
-      background-color: #512DA8;
-    }
-    footer {
-      margin-top: 20px;
-      color: #fff;
-      font-size: 0.9rem;
-      text-align: center;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习越南语</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="overlay">
-    <h1>学越南语</h1>
-    <p>开始学习越南语，感受美丽的越南文化与语言魅力！</p>
-    <div class="cards">
-      <!-- 卡片 1 -->
-      <div class="card">
-        <img src="https://via.placeholder.com/200x150?text=%E4%B8%80%E5%AF%B9%E4%B8%80%E8%AF%BE%E7%A8%8B" alt="一对一课程">
-        <button onclick="location.href='page1.html'">一对一课程</button>
-      </div>
-      <!-- 卡片 2 -->
-      <div class="card">
-        <img src="https://via.placeholder.com/200x150?text=%E4%B8%80%E5%8D%83%E5%8F%A5%E8%B6%8A%E5%8D%97%E8%AF%AD" alt="一千句越南语">
-        <button onclick="location.href='page2.html'">一千句越南语</button>
-      </div>
-      <!-- 卡片 3 -->
-      <div class="card">
-        <img src="https://via.placeholder.com/200x150?text=%E4%B8%89%E7%99%BE%E5%8F%A5%E8%B6%8A%E5%8D%97%E8%AF%AD" alt="三百句越南语">
-        <button onclick="location.href='page3.html'">三百句越南语</button>
-      </div>
-      <!-- 卡片 4 -->
-      <div class="card">
-        <img src="https://via.placeholder.com/200x150?text=%E8%A1%A3%E6%9C%8D" alt="衣服">
-        <button onclick="location.href='page4.html'">衣服</button>
-      </div>
-    </div>
-    <!-- 动漫小人 -->
-    <img src="https://via.placeholder.com/250x350?text=%E8%B6%8A%E5%8D%97%E5%8A%A8%E6%BC%AB%E5%A5%B3%E5%AD%A9" alt="越南动漫小人" style="margin-top: 20px; border-radius: 10px;">
-  </div>
-  <footer>版权所有 © 学越南语 2024</footer>
+    <header>
+        <h1>学习越南语</h1>
+    </header>
+    <main>
+        <section class="cards">
+            <div class="card" onclick="location.href='one-on-one.html'">
+                <h2>一对一课程</h2>
+            </div>
+            <div class="card" onclick="location.href='1000-phrases.html'">
+                <h2>一千句越南语</h2>
+            </div>
+            <div class="card" onclick="location.href='300-phrases.html'">
+                <h2>三百句越南语</h2>
+            </div>
+            <div class="card" onclick="location.href='clothes.html'">
+                <h2>衣服</h2>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
