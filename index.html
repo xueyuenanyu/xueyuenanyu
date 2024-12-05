@@ -3,135 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>课程介绍</title>
-    <style>
-        /* Reset default margin and padding */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        /* Body style */
-        body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #f7b7d2, #90e0ef); /* Soft gradient background */
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            flex-direction: column;
-            padding: 20px;
-        }
-
-        /* Container to center cards */
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-            max-width: 1200px;
-            margin-top: 20px;
-        }
-
-        /* Card style */
-        .card {
-            background-color: #ffffff;
-            border-radius: 15px;
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-            width: 250px;
-            text-align: center;
-            transition: all 0.3s ease;
-            background: #ffffff; /* White background for cards */
-            overflow: hidden;
-        }
-
-        /* Card image style */
-        .card img {
-            width: 100%;
-            height: auto;
-            border-bottom: 2px solid #f0f0f0;
-        }
-
-        /* Card text style */
-        .card h2 {
-            font-size: 24px;
-            color: #4CAF50;
-            margin-top: 15px;
-        }
-
-        .card a {
-            display: block;
-            font-size: 18px;
-            color: #007BFF;
-            text-decoration: none;
-            margin-top: 10px;
-            font-weight: bold;
-        }
-
-        .card a:hover {
-            color: #0056b3;
-        }
-
-        .card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Media queries for responsiveness */
-        @media (max-width: 768px) {
-            .card {
-                width: 220px;
-                padding: 15px;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .card {
-                width: 180px;
-                font-size: 16px;
-            }
-            .card h2 {
-                font-size: 20px;
-            }
-            body {
-                background: linear-gradient(135deg, #f7b7d2, #ff7f7f); /* Change gradient for small screens */
-            }
-        }
-    </style>
+    <title>越南风格卡片</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <header>
+        <h1>欢迎来到越南文化课程</h1>
+        <p>探索语言与文化之美</p>
+    </header>
     <div class="container">
-        <!-- Card 1: 一对一课程 -->
         <div class="card">
-            <img src="path-to-your-image/course1.jpg" alt="一对一课程">
-            <h2>一对一课程</h2>
-            <a href="course1.html">点击查看</a>
+            <img src="images/ao-dai-1.jpg" alt="越南动漫小人1">
+            <button onclick="window.location.href='page1.html'">一对一课程</button>
         </div>
-
-        <!-- Card 2: 一千句越南语 -->
         <div class="card">
-            <img src="path-to-your-image/course2.jpg" alt="一千句越南语">
-            <h2>一千句越南语</h2>
-            <a href="course2.html">点击查看</a>
+            <img src="images/ao-dai-2.jpg" alt="越南动漫小人2">
+            <button onclick="window.location.href='page2.html'">一千句越南语</button>
         </div>
-
-        <!-- Card 3: 三百句越南语 -->
         <div class="card">
-            <img src="path-to-your-image/course3.jpg" alt="三百句越南语">
-            <h2>三百句越南语</h2>
-            <a href="course3.html">点击查看</a>
+            <img src="images/ao-dai-3.jpg" alt="越南动漫小人3">
+            <button onclick="window.location.href='page3.html'">三百句越南语</button>
         </div>
-
-        <!-- Card 4: 衣服 -->
         <div class="card">
-            <img src="path-to-your-image/clothes.jpg" alt="衣服">
-            <h2>衣服</h2>
-            <a href="course4.html">点击查看</a>
+            <img src="images/ao-dai-4.jpg" alt="越南动漫小人4">
+            <button onclick="window.location.href='page4.html'">衣服</button>
         </div>
     </div>
-
 </body>
 </html>
