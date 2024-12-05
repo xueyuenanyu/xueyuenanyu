@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1em 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 2em;
+    text-align: center;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    background: #ffe0b2;
+}
