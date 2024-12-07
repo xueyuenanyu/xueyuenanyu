@@ -71,7 +71,7 @@ main {
 }
 
 /* 图片的基本样式 */
-.image-item img {
+.ao-dai-item img {
     width: 100%;  /* 图片自适应宽度 */
     height: auto; /* 保持纵横比 */
     border-radius: 8px;  /* 圆角效果 */
