@@ -63,7 +63,7 @@ main {
     background: #ffe0b2;
 }
 /* 添加网格布局来保证图片之间的间距一致 */
-.image-gallery {
+.clothes {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* 图片自适应列数 */
     gap: 1.5em;  /* 设置图片间距 */
